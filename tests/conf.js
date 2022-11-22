@@ -22,7 +22,7 @@ const baseConfig = {
   suites: {
     web: [
       'e2e/protractor/!(cht)/**/*.js',
-      'e2e/protractor/**/*.js'
+      'e2e/protractor/**/rapidpro.spec.js'
     ],
     cht: [
       'e2e/protractor/cht/*.spec.js'
